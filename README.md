@@ -14,7 +14,7 @@ https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Audio_API
 var audio = document.getElementById(" audio_id ");
 <br/>
 audio_id = 您的audio标签的id
-<br/><br/><br/><br/><br/>
+<br/><br/><br/>
 当前支持的一些音效:<br/>
 低音增强<br/>空间混响<br/>
 <br/><br/>
