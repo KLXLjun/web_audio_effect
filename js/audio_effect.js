@@ -1,7 +1,10 @@
 /*
-
+如果喜欢请点个Star吧!
+本人第一个写的开源项目
+博客:huyaoblog.cn
 
 我参考的信息在这里:
+https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Audio_API 
 https://www.web-tinker.com/search/AudioAPI%20createAnalyser%20%E6%B3%A2%E5%BD%A2%E5%9B%BE/1.html
 */
 
