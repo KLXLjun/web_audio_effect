@@ -3,7 +3,7 @@ web音频效果
 <br/><br/><br/>
 使用浏览器自带Web Audio API
 
-自己封装的一个音效...
+自己封装的一些音效...
 <br/><br/>
 参考文档:<br/>
 https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Audio_API
