@@ -9,7 +9,7 @@ web音频效果
 https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Audio_API
 <br/>https://www.web-tinker.com/search/AudioAPI%20createAnalyser%20%E6%B3%A2%E5%BD%A2%E5%9B%BE/1.html
 <br/><br/><br/>
-
+<br/>示例在index.html里<br/>
 使用:<br/>
 在引用js前写上这一句:<br/>
 var audio = document.getElementById(" audio_id ");
