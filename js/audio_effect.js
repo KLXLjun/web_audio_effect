@@ -22,6 +22,7 @@ var gain2=context.createGain();//音量限制2
 var gain3=context.createGain();//音量限制3
 var gain4=context.createGain();//音量限制3
 var filter = context.createBiquadFilter();//音频滤波器
+var panNode = context.createStereoPanner();//panner节点，用于向左或向右平移音频流 (声道切换)
 
 var distortion = context.createWaveShaper();
 
@@ -34,8 +35,8 @@ source.connect(gain);//将资源连接至音量限制1
 source.connect(convolver);//将资源连接至混响1
 source.connect(convolver2);//将资源连接至混响2
 
-convolver.connect(gain2);//混响1连接至音量限制2
-convolver2.connect(gain3);//混响1连接至音量限制2
+convolver.connect(convolver2);//混响1连接至音量限制2
+convolver2.connect(gain2);//混响1连接至音量限制2
 
 gain.connect(context.destination);//将音量限制1的数据输出
 
